@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myNotes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"></link>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" href="svg/fast.svg" type="image/icon type">
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <input class="modal-title" placeholder="Title" type="text">
+        <input class="modal-text" placeholder="Take a note..." type="text">
+        <span class="modal-close-button">Close</span>
+      </div>
+    </div>
+    <main>
+      <header>
+        <h2 class="header-title"> <span class="Fast">Fast</span> & <span class="Simple">Simple Notes</span></h2>
+      </header>
+      <div id="form-container">
+        <form id="form" autocomplete="off">
+          <input id="note-title" placeholder="Title" type="text">
+          <input id="note-text" placeholder="Take a note..." type="text">
+          <div id="form-buttons">
+            <button type="submit" id="submit-button">Add note</button>
+            <button type="button" id="form-close-button">Close</button>
+          </div>
+        </form>
+      </div>
+      <div id="notes"></div>
+      <div id="placeholder">
+        <img id="placeholder-logo" src="svg/lock.svg">
+        <p id="placeholder-text">Notes you add appear here</p>
+      </div>
+      <div id="color-tooltip">
+        <div class="color-option" data-color="rgba(0, 98, 255, 0.87)" id="white"></div>
+        <div class="color-option" data-color="#fb8500" id="purple"></div>
+        <div class="color-option" data-color="#FFD400" id="orange"></div>
+        <div class="color-option" data-color="white" id="teal"></div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
