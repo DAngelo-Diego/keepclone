@@ -1,5 +1,5 @@
-Little app about notes.
 
-Make a quick note.
+
+Make a quick note, try it!
 
 deploy: https://my-notes-five.vercel.app/
